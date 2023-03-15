@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orderkaro</title>
+    <style>
+        *{
+            margin:0px 0px;
+            padding:0px 0px;
+        }
+        .top{
+            height:17vh;
+            width:100vw;
+            /*border:2px rgb(240, 237, 237) solid black;*/
+            background-color: #e6e3dd;
+            display: flex;
+        }
+        .logo{
+            height:95%;
+            width:17vw;
+            border:2px solid rgb(149, 30, 30);
+            background-image: url("https://th.bing.com/th/id/OIP.oicwV3hcAMfNq9VC3X8vugHaFE?pid=ImgDet&w=1073&h=735&rs=1");
+            background-size:contain ;
+            /*font-size: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+        }
+        .loginpage{
+            height:65%;
+            width:20vw;
+           /* border:2px solid rgb(149, 30, 30);*/
+            /*margin:auto 0px auto 900px;*/
+            font-size: 40px;
+            display: flex;
+            color:rgb(27, 7, 7);
+            background-color: #e6e3dd;
+
+        }
+        .title{
+            font-size: 100px;
+            margin:0px 150px 0px 150px;
+            color: rgb(5, 4, 3);
+        }
+        .login{
+            height:80%;
+            width:50%;
+           /* border:2px solid red;*/
+            margin:auto 50px 0px 130px;
+            background-color: #e6e3dd;
+        }
+        .signin:hover{
+            background-color: #d25e0b;
+            transition: .2s;
+            transform: scale(1.2);
+            cursor: pointer;
+
+            border-radius: 30px;
+        }
+        .signin{
+            height:80%;
+            width:50%;
+            /*border:2px solid red;*/
+            margin:auto 0px 0px 0px;
+            background-color: #e6e3dd;
+            cursor: pointer;
+            
+
+
+        }
+        .login:hover{
+            background-color: #d25e0b;
+            transition: .2s;
+            transform: scale(1.2);
+            border-radius: 30px;
+
+        }
+        .header{
+            height:6vh;
+            width:100vw;
+            display: flex;
+            background-color: #e41414;
+            margin:0px 0px;
+        }
+        .k{
+            height:95%;
+            width:10%;
+            margin:auto auto;
+            /*border:2px solid rgb(8, 34, 6);*/
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+        .k:hover{
+            background-color: #2f0df1;
+            cursor: pointer;
+            transform:scale(1.2);
+            transition: transform .2s;
+            border-radius: 40px;
+        }
+        .slider{
+            height:50vh;
+            width:100vw;
+            display: flex;
+            border:2px solid rgb(17, 13, 13);
+            background-color: rgba(225, 219, 219, 0.56);
+            /*background-image: url("https://th.bing.com/th/id/OIP.7J3S2NhVn-l2GImKtR_WYQHaEK?w=321&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+            background-size: contain;*/
+           
+           
+        }
+        .l{
+          height:10vh;
+          width:18.51vw;
+          /*border:2px solid red;*/
+          font-size: 50px;
+          background-color: #7a08e6;
+          text-transform:unset;
+          text-align:center;
+          
+        }
+        .l:hover{
+            background-color: #f47607;
+            cursor: pointer;
+            /*border-radius: 50px;*/
+            transform:scale(1.2);
+            transition: transform .2s;
+            border-radius: 20px;
+        }
+        #ll1{
+            margin:300px 0px 0px 200px;
+           /* background-image: url("https://th.bing.com/th/id/OIP.5xNlY8XyTzdopmH3KSi7WwHaDj?pid=ImgDet&rs=1");
+            background-size: cover;*/
+        }
+        #ll2{
+            margin:300px 0px 0px 0px;
+            }
+        #ll3{
+            margin:300px 0px 0px 0px;
+        }
+        #ll4{
+            margin:300px 30px 0px 0px;
+           /* width:20vw;*/
+        }
+        .divider{
+            height:50vh;
+            width:100vw;
+            border:2px solid red;
+            background-color: rgb(150, 223, 236);
+            
+        }
+       
+     
+        .mm1{
+            height:80%;
+            width:80%;
+            margin:0px 0px 0px auto;
+        }    
+       
+            
+    </style>
+</head>
+<body>
+    <header class="top">
+        <div class="logo"></div>
+        <pre class="title">ORDER KARO</pre>
+        <div class="loginpage">
+            <div class="login">Login</div>
+            <div class="signin">Singup</div>
+        </div>
+    </header>
+    <section class="header">
+        <div  id ="kk1"class="k">Russian</div>
+        <div  id ="kk2"class="k">Italian</div>
+        <div  id ="kk3"class="k">Chinese</div>
+        <div  id ="kk4"class="k">Japanese</div>
+        <div  id ="kk5"class="k">French</div>
+        <div  id ="kk6"class="k">Indian</div>
+        <div  id ="kk7"class="k">Arabian</div>
+   </section>
+   <section class ="slider">
+    <div  id ="ll1"class="l"><div class="mm">BREAKFAST</div></div>
+    <div  id ="ll2"class="l"><div class="mm1">LUNCH</div></div>
+    <div  id ="ll3"class="l"><div class="mm">SNACKS</div></div>
+    <div  id ="ll4"class="l"><div class="mm">DINNER</div></div>
+   </section>
+
+   <section class="divider"></section>
+    
+</body>
+
+</html>
